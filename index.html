@@ -1,0 +1,570 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#000000">
+
+    <meta
+        name="description"
+        content="Путеводитель по основным локациям ролевого проекта."
+    >
+
+    <title>Локации — Roleplay</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body class="is-locked">
+
+    <!-- ====================
+         HERO SECTION
+    ========================== -->
+
+    <main>
+
+        <section class="hero" id="hero">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-eyebrow">
+                        ROLEPLAY / LOCATION GUIDE
+                    </span>
+
+                    <h1>
+                        ЛОКАЦИИ<span>.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Если для вашего сюжета нужно добавить новые локации,
+                        свяжитесь с владельцем. Важно уточнить, что никаких
+                        ограничений по локациям нет, этот сайт создан
+                        исключительно для удобства, тут указаны лишь основные
+                        места, которые часто используются в ролевой, чтобы
+                        у всех участников было одно представление и не
+                        возникало путаницы.
+                    </p>
+
+                </div>
+
+                <div class="hero-bottom">
+
+                    <div class="hero-caption">
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <button
+                        class="explore-button"
+                        id="exploreButton"
+                        type="button"
+                    >
+                        <span>Посмотреть</span>
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M5 12H19M19 12L12 5M19 12L12 19"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOCATIONS SECTION
+        ========================== -->
+
+        <section class="locations-page" id="locationsPage">
+
+            <div class="locations-container">
+
+                <!-- TOP IMAGES -->
+
+                <div class="intro-gallery">
+
+                    <div class="intro-main-image">
+
+                        <img
+                            src="xiao.jpg"
+                            alt=""
+                            draggable="false"
+                        >
+
+                    </div>
+
+                    <div class="intro-bottom">
+
+                        <div class="intro-secondary-image">
+
+                            <img
+                                src="keyaalbedo.jpg"
+                                alt=""
+                                draggable="false"
+                            >
+
+                        </div>
+
+                        <div class="exit-wrapper">
+
+                            <button
+                                class="exit-button"
+                                id="exitButton"
+                                type="button"
+                            >
+                                <span>выйти</span>
+
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M19 12H5M5 12L12 5M5 12L12 19"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SECTION HEADING -->
+
+                <div class="locations-heading">
+
+                    <div>
+                        <span class="section-overline">
+                        
+                        </span>
+
+                        <h2>Основные места</h2>
+                    </div>
+
+                    <span class="locations-count">
+                        04 / LOCATIONS
+                    </span>
+
+                </div>
+
+
+                <!-- =========================
+                     ACCORDION
+                ========================== -->
+
+                <div class="accordion">
+
+
+                    <!-- LOCATION 1 -->
+
+                    <article class="location-item">
+
+                        <button
+                            class="location-header"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="location-police"
+                            id="header-police"
+                        >
+
+                            <span class="location-title">
+                                <span class="location-number">01</span>
+                                <span>Полицейский участок</span>
+                            </span>
+
+                            <span class="location-arrow">
+
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M5 12H19M19 12L12 5M19 12L12 19"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+
+                            </span>
+
+                        </button>
+
+
+                        <div
+                            class="location-panel"
+                            id="location-police"
+                            role="region"
+                            aria-labelledby="header-police"
+                            aria-hidden="true"
+                        >
+
+                            <div class="location-panel-inner">
+
+                                <p class="location-description">
+                                    Место, где закон и порядок это часть
+                                    повседневной работы. Внутри расположены
+                                    кабинеты сотрудников, комнаты для допросов,
+                                    архивы и помещения для хранения улик.
+                                    Вдоль стен стоят металлические шкафы и
+                                    ящики для оружия, боеприпасов и личного
+                                    снаряжения. Доступ в служебные помещения
+                                    ограничен электронными замками и пропусками.
+                                    Коридоры и рабочие зоны находятся под
+                                    наблюдением камер, а важные доказательства
+                                    хранятся в специальных защищенных ячейках.
+                                </p>
+
+
+                                <div class="gallery">
+
+                                    <div class="gallery-track">
+
+                                        <img src="police1.jpg" alt="" draggable="false">
+                                        <img src="police2.jpg" alt="" draggable="false">
+                                        <img src="police3.jpg" alt="" draggable="false">
+                                        <img src="police4.jpg" alt="" draggable="false">
+                                        <img src="police5.jpg" alt="" draggable="false">
+                                        <img src="police6.jpg" alt="" draggable="false">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- LOCATION 2 -->
+
+                    <article class="location-item">
+
+                        <button
+                            class="location-header"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="location-bar"
+                            id="header-bar"
+                        >
+
+                            <span class="location-title">
+                                <span class="location-number">02</span>
+                                <span>Бар, принадлежащий Дурину</span>
+                            </span>
+
+                            <span class="location-arrow">
+
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M5 12H19M19 12L12 5M19 12L12 19"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+
+                            </span>
+
+                        </button>
+
+
+                        <div
+                            class="location-panel"
+                            id="location-bar"
+                            role="region"
+                            aria-labelledby="header-bar"
+                            aria-hidden="true"
+                        >
+
+                            <div class="location-panel-inner">
+
+                                <p class="location-description">
+                                    Подробнее о баре можно узнать в анкете
+                                    Дурина. Это место давно стало одним из
+                                    любимых заведений представителей
+                                    криминального мира, сюда приходят не только
+                                    выпить и отдохнуть, но и обсудить дела,
+                                    вопросы. Именно здесь чаще всего можно
+                                    услышать сплетни о происходящем в городе,
+                                    узнать о новых конфликтах, сделках. Место,
+                                    где все можно хорошо провести время в
+                                    приятной компании с друзьями, но в вип
+                                    комнату может попасть не каждый.
+                                </p>
+
+
+                                <div class="gallery">
+
+                                    <div class="gallery-track">
+
+                                        <img src="bar1.jpg" alt="" draggable="false">
+                                        <img src="bar2.jpg" alt="" draggable="false">
+                                        <img src="bar3.jpg" alt="" draggable="false">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- LOCATION 3 -->
+
+                    <article class="location-item">
+
+                        <button
+                            class="location-header"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="location-horse"
+                            id="header-horse"
+                        >
+
+                            <span class="location-title">
+                                <span class="location-number">03</span>
+                                <span>Конюшня</span>
+                            </span>
+
+                            <span class="location-arrow">
+
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M5 12H19M19 12L12 5M19 12L12 19"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+
+                            </span>
+
+                        </button>
+
+
+                        <div
+                            class="location-panel"
+                            id="location-horse"
+                            role="region"
+                            aria-labelledby="header-horse"
+                            aria-hidden="true"
+                        >
+
+                            <div class="location-panel-inner">
+
+                                <p class="location-description">
+                                    Принадлежит одному из членов мафии и
+                                    представляет собой частное конное
+                                    хозяйство, расположенное за городом.
+                                    Основная деятельность связана с разведением,
+                                    содержанием и подготовкой лошадей к скачкам.
+                                    Большинство лошадей участвует в соревнованиях,
+                                    принося владельцу огромную прибыль, а иногда
+                                    участвуют и в отмывании денег.
+                                </p>
+
+
+                                <div class="gallery">
+
+                                    <div class="gallery-track">
+
+                                        <img src="horse1.jpg" alt="" draggable="false">
+                                        <img src="horse2.jpg" alt="" draggable="false">
+                                        <img src="horse3.jpg" alt="" draggable="false">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- LOCATION 4 -->
+
+                    <article class="location-item">
+
+                        <button
+                            class="location-header"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="location-hospital"
+                            id="header-hospital"
+                        >
+
+                            <span class="location-title">
+                                <span class="location-number">04</span>
+                                <span>Медицинский центр</span>
+                            </span>
+
+                            <span class="location-arrow">
+
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M5 12H19M19 12L12 5M19 12L12 19"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+
+                            </span>
+
+                        </button>
+
+
+                        <div
+                            class="location-panel"
+                            id="location-hospital"
+                            role="region"
+                            aria-labelledby="header-hospital"
+                            aria-hidden="true"
+                        >
+
+                            <div class="location-panel-inner">
+
+                                <p class="location-description">
+                                    Учреждение, находящееся под контролем мафии.
+                                    Центр имеет множество этажей с отделениями
+                                    для диагностики в разных отраслях медицины.
+                                    Помимо этого там расположены кабинеты врачей,
+                                    палаты для пациентов и операционные.
+                                    Медицинский центр обслуживает как обычных
+                                    посетителей, так и членов мафии, обеспечивая
+                                    им медицинскую помощь без лишнего внимания.
+
+                                    <br><br>
+
+                                    В подвальном помещении, доступ к которому
+                                    строго ограничен, располагается секретная
+                                    лаборатория под руководством Альбедо.
+                                    Там проводятся разные исследования и
+                                    эксперименты, в том числе запрещённые опыты
+                                    над людьми, а само существование лаборатории
+                                    и её деятельность держатся в тайне от
+                                    посторонних глаз.
+                                </p>
+
+
+                                <div class="gallery">
+
+                                    <div class="gallery-track">
+
+                                        <img src="hospital1.jpg" alt="" draggable="false">
+                                        <img src="hospital2.jpg" alt="" draggable="false">
+                                        <img src="hospital3.jpg" alt="" draggable="false">
+                                        <img src="hospital4.jpg" alt="" draggable="false">
+                                        <img src="hospital5.jpg" alt="" draggable="false">
+                                        <img src="hospital6.jpg" alt="" draggable="false">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- FOOTER -->
+
+                <footer class="footer">
+
+                    <div class="footer-left">
+                        сайт не для продажи
+                    </div>
+
+                    <div class="footer-center">
+                        ролевая GM
+                    </div>
+
+                    <a
+                        class="back-to-top"
+                        href="#locationsPage"
+                        id="backToTop"
+                    >
+                        НАВЕРХ ↑
+                    </a>
+
+                </footer>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
